@@ -24,18 +24,18 @@
  5 0xa55a151eb00fded1634d27d1127b4be4627079ea        0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #5
  6 0xa66a85ede0cbe03694aa9d9de0bb19c99ff55bd9        0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #6
  7 0xa77a2b9d4b1c010a22a7c565dc418cef683dbcec        0.000000000000000000           0.000000000000000000           0.000000000000000000 Account #7
- 8 0x0a91add9e3e97057980da7826043aab2a2d4c35b        0.000000000000000000           0.000000000000000000           0.000000000000000000 SecurityToken 'ST' 'Security Token'
+ 8 0x821ca8becdbfb00ca55e722908796a375bc2d538        0.000000000000000000           0.000000000000000000           0.000000000000000000 SecurityToken 'ST' 'Security Token'
 -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ---------------------------
                                                                               1000000.000000000000000000           0.000000000000000000 Total Token Balances
 -- ------------------------------------------ --------------------------- ------------------------------ ------------------------------ ---------------------------
 
 PASS Deploy Group #1 - SecurityToken
-tokenTx status=0x1 Success gas=2000000 gasUsed=1107183 costETH=0.002214366 costUSD=0.9646885479 @ ETH/USD=435.65 gasPrice=2 gwei block=1024 txIx=0 txId=0x51db706a9679aa3af3f99a975562e4d8440b73b1ad408f03cb2f2d41117af8e0 @ 1537376798 Wed, 19 Sep 2018 17:06:38 UTC
-tokenAContractAddress=SecurityToken 'ST' 'Security Token':0x0a91add9e3e97057980da7826043aab2a2d4c35b
+tokenTx status=0x1 Success gas=2000000 gasUsed=1107183 costETH=0.002214366 costUSD=0.9646885479 @ ETH/USD=435.65 gasPrice=2 gwei block=5006 txIx=0 txId=0x57b34777493e499f6e7c21677367439a7fc3de139b2d2f5c9543ba97f0669b51 @ 1537380780 Wed, 19 Sep 2018 18:13:00 UTC
+tokenAContractAddress=SecurityToken 'ST' 'Security Token':0x821ca8becdbfb00ca55e722908796a375bc2d538
 token.owner=Account #1 - Deployer:0xa11aae29840fbb5c86e6fd4cf809eba183aef433
 token.symbol=ST
 token.name=Security Token
 token.decimals=18
 token.totalSupply=1e+24 1000000
-token.Transfer 0 #1024 from=0x0000000000000000000000000000000000000000 to=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 tokens=1000000
+token.Transfer 0 #5006 from=0x0000000000000000000000000000000000000000 to=0xa11aae29840fbb5c86e6fd4cf809eba183aef433 tokens=1000000
 

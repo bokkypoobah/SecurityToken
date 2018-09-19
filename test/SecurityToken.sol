@@ -6,12 +6,41 @@ pragma solidity ^0.4.24;
 // Authors:
 // * BokkyPooBah / Bok Consulting Pty Ltd
 // *
+//
 // Sep 20 2018
 // ----------------------------------------------------------------------------
 
 import "SafeMath.sol";
-import "ERC20Interface.sol";
 import "Owned.sol";
+import "ERC20Interface.sol";
+
+
+/// @title IERCST Security Token Standard (EIP 1400)
+/// @dev See https://github.com/SecurityTokenStandard/EIP-Spec
+
+contract CanSendCodes {
+    byte constant TRANSFER_VERIFIED_UNRESTRICTED = 0xA0;                // Transfer Verified - Unrestricted
+    byte constant TRANSFER_VERIFIED_ONCHAIN_APPROVAL = 0xA1;            // Transfer Verified - On-Chain approval for restricted token
+    byte constant TRANSFER_VERIFIED_OFFCHAIN_APPROVAL = 0xA2;           // Transfer Verified - Off-Chain approval for restricted token
+    byte constant TRANSFER_BLOCKED_SENDER_LOCKED_PERIOD = 0xA3;         // Transfer Blocked - Sender lockup period not ended
+    byte constant TRANSFER_BLOCKED_SENDER_BALANCE_INSUFFICIENT = 0xA4;  // Transfer Blocked - Sender balance insufficient
+    byte constant TRANSFER_BLOCKED_SENDER_NOT_ELIGIBLE = 0xA5;          // Transfer Blocked - Sender not eligible
+    byte constant TRANSFER_BLOCKED_RECEIVER_NOT_ELIGIBLE = 0xA6;        // Transfer Blocked - Receiver not eligible
+    byte constant TRANSFER_BLOCKED_IDENTITY_RESTRICTION = 0xA7;         // Transfer Blocked - Identity restriction
+    byte constant TRANSFER_BLOCKED_TOKEN_RESTRICTION = 0xA8;            // Transfer Blocked - Token restriction
+    byte constant TRANSFER_BLOCKED_TOKEN_GRANULARITY = 0xA9;            // Transfer Blocked - Token granularity
+}
+
+/*
+interface IERCST is IERCPFT {
+    function getDocument(bytes32 _name) external view returns (string _uri, bytes32 _documentHash);
+    function setDocument(bytes32 _name, string _uri, bytes32 _documentHash) external;
+    function issuable() external view returns (bool);
+    function canSend(address _from, address _to, bytes32 _tranche, uint256 _amount, bytes _data) external view returns (byte, bytes32, bytes32);
+    function issueByTranche(bytes32 _tranche, address _tokenHolder, uint256 _amount, bytes _data) external;
+
+    event IssuedByTranche(bytes32 indexed tranche, address indexed operator, address indexed to, uint256 amount, bytes data, bytes operatorData);
+}*/
 
 
 // ----------------------------------------------------------------------------
