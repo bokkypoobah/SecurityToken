@@ -4,6 +4,8 @@
 
 First attempt to work out an implementation of the [ERC 1400: Security Token Standard](https://github.com/ethereum/EIPs/issues/1411) and [ERC 1410: Partially Fungible Token Standard](https://github.com/ethereum/EIPs/issues/1410) standards currently being worked on.
 
+<kbd><img src="docs/SecurityToken_20180921_014947.png" /></kbd>
+
 <br />
 
 <hr />
