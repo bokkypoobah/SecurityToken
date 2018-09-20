@@ -17,6 +17,10 @@ First attempt to work out an implementation of the [ERC 1400: Security Token Sta
 * Last Call [EIP 820: Pseudo-introspection Registry Contract](https://eips.ethereum.org/EIPS/eip-820)
 * Final [ERC-20 Token Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
+See also:
+
+* Draft [ERC-1404: Simple Restricted Token Standard](https://github.com/ethereum/EIPs/issues/1404)
+
 <br />
 
 <hr />
