@@ -6,6 +6,8 @@ First attempt to work out an implementation of the [ERC 1400: Security Token Sta
 
 <kbd><img src="docs/SecurityToken_20180921_014947.png" /></kbd>
 
+You can use [Freeplane](https://www.freeplane.org/wiki/index.php/Home) to download, view and edit [docs/SecurityToken.mm](docs/SecurityToken.mm).
+
 <br />
 
 <hr />
