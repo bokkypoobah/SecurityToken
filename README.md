@@ -24,6 +24,7 @@ You can use [Freeplane](https://www.freeplane.org/wiki/index.php/Home) to downlo
 See also:
 
 * Draft [ERC-1404: Simple Restricted Token Standard](https://github.com/ethereum/EIPs/issues/1404)
+* [ISO 20022 - Securities Dashboard](https://www.iso20022.org/securities_dashboard.page) and [ISO 20022](https://en.wikipedia.org/wiki/ISO_20022)
 
 <br />
 
